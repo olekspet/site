@@ -1,0 +1,29 @@
+body{
+	background-color: aqua;
+}
+p{
+	font-size: 30px;
+	color: olive;
+	background-color: red;
+}
+.ex1{
+	font-family: Arial Helveca, sans-serif;
+    
+}
+.ex2{
+	font-family: cursive;
+	font-weight: 900;
+}
+.ex3{
+font-family: 'lobster',cursive;
+}
+
+}
+.ex4{
+    font-family: 'Rubik Gemestones',cursive;
+}
+.ex5{
+    font-family: 'Rubik Wet Paint',cursive;';
+    color: red;
+    background-color: black;
+}

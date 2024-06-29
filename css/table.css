@@ -1,0 +1,42 @@
+body{
+	background-color: aquamarine;
+}
+p{
+	background-color: yellow;
+    font-size: 50px;
+    color: blue;
+    text-align: center;
+}
+table{
+	border: 2px double darkblue;
+	font-size: 24px;
+	width: 50%;
+	border-collapse: separate;
+}
+th,td{
+	border: 3px solid darkcyan;
+	width: 25%;
+	height: 1cm;	
+}
+tr:hover,th:hover{
+	background-color: lightcoral;
+}
+td:hover{
+    background-image: url(https://media0.giphy.com/media/kkoRgXbTCPY3K/200w.gif?cid=6c09b95280yqffwznp545dr9f5j4q932i6raotg7fgfoop5x&ep=v1_gifs_search&rid=200w.gif&ct=g);	
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: whitesmoke ;
+}
+tr:nth-child(odd){
+	background-color: lemonchiffon;
+}
+tr:nth-child(even){
+	background-color: lightblue;
+}
+caption{
+	text-transform: uppercase;
+    font-size: 2em;	
+	background: linear-gradient( to left, red, orange, yellow, green, blue, indigo, violet );	
+    color: whitesmoke;
+}

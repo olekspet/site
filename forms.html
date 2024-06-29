@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Форми</title>
+	<link rel="stylesheet" type="text/css" href="css/forms.css">
+</head>
+<body>
+<p>Ми вивчаємо роботу з формами</p>
+<form name="form">
+	<label for="name">Введіть ваше ім'я</label>
+	<input type="text" name="name" value="Enter your name" size="20"><br>
+	<label for="surname">Введіть ваше прізвише</label>
+	<input type="text" name="surname" size="30"><br>
+	<input type="text" name="text1" value="Неактивне поле" disabled>
+	<input type="text" name="text2" value="Тільки для читання" readonly><br>
+	<label >Введіть ваш пароль</label>
+	<input type="pasword" name="pasword"maxlength="30"size="20"><br>
+	<label for="robot">Ти робот?</label>
+	<input type="radio" name="robot"class="box">Так
+	<input type="radio" name="robot"class="box">Ні<br>
+	Яку мову бажаєте вивчити?<br>
+	<input type="checkbox" name="en" class="box">Англійська
+	<input type="checkbox" name="fr" class="box">Французька
+	<input type="checkbox" name="kr" class="box" checked>Корейська
+	<input type="checkbox" name="sp" class="box">Іспаньска
+	<br>
+	<input type="reset" name="reset" value="reset" class="btn">
+	<button type="symbnit" class="btn">Symbnit</button>
+	<input type="file" name="file"><br>
+	<textarea cols="20" rows="3" wrap="off"></textarea>
+	<textarea cols="30" rows="5" wrap="virtual"></textarea>
+	<textarea cols="50" rows="7" wrap="physical"></textarea>
+	<br>
+    <select name="ln1">
+    	<option>Англійська</option>
+    	<option>Французька</option>
+    	<option>Корейська</option>
+    	<option>Іспаньска</option>
+
+    </select>
+    <select name="ln2" size="2">
+    	<option>Англійська</option>
+    	<option>Французька</option>
+    	<option>Корейська</option>
+    	<option>Іспаньска</option>
+
+    </select>
+    <select name="ln3" multiple>
+    	<option>Англійська</option>
+    	<option>Французька</option>
+    	<option>Корейська</option>
+    	<option>Іспаньска</option>
+
+    </select>
+</form>
+</body>
+</html>
